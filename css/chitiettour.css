@@ -50,9 +50,6 @@
     border-radius: 10px;
     box-shadow: 0 0 32px rgba(0,0,0,.12);
     
-    
-   
-
 }
 
 .nl, .inputngay{
@@ -60,10 +57,6 @@
     border-radius: 10px;
     border: #cecece 1px solid;
     padding: 5px;
-    
-    
-
-
 }
 
 .tien{
@@ -82,7 +75,12 @@
 .tien button:hover{
     background-color: #cecece;
 }
- #tinh, #tinhTreEm{
+#tinh1, #tinhTreEm1{
+    width: 70px;
+    height: 35px;
+    text-align: center;
+}
+#tinh, #tinhTreEm{
     width: 40px;
     height: 35px;
     background-color: none;
@@ -99,4 +97,11 @@
 #txtGia,#txtGiaTreEm {
     color: #3C669E;
     font-weight: bold;
+}
+
+
+/* ----------------- Quy new  ----------------- */
+.box p{
+    line-height: 35px;
+    word-spacing: 2px
 }

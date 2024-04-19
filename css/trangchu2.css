@@ -167,60 +167,6 @@ input[type="color"]:focus,
   box-shadow: 0 1px 1px rgba(256, 256, 256, 0.075);
 }
 
-.input-group {
-    position: relative;
-}
-
-.autobox {
-    position: absolute;
-    top: 112%;
-    background-color: #fff;
-    width: 100%;
-    overflow-y: auto;
-    z-index: 999;
-}
-
-.autobox li {
-    list-style: none;
-    padding: 6px 0 6px 36px;
-    cursor: pointer;
-    display: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-} 
-
-.autobox li:hover {
-    color: #F9AB52;
-} 
-
-.autobox.active li {
-    display: block;
-}
-
-.flatpickr-months .flatpickr-month {
-    background-color: #F9AB52 !important;
-}
-
-.flatpickr-current-month .flatpickr-monthDropdown-months {
-    background-color: #F9AB52 !important;
-}
-
-.flatpickr-weekdays {
-    background-color: #F9AB52 !important;
-}
-
-.flatpickr-weekday {
-    background-color: #F9AB52 !important;
-}
-
-.flatpickr-calendar.arrowTop:after {
-    border-bottom-color: #F9AB52 !important;
-}
-
-.flatpickr-calendar.arrowBottom:after {
-    border-top-color: #F9AB52 !important;
-}
-
-
 /* ----------------- CONTENT ----------------- */
 .content-item {
     width: 90vw;
@@ -343,7 +289,7 @@ input[type="color"]:focus,
     border: 0;
 }
 
-.card:hover, .hieuung2:hover, .schedule:hover   {
+.card:hover {
     cursor: pointer;
     transform: scale(1.02);
 }
@@ -351,32 +297,6 @@ input[type="color"]:focus,
 .icon-app:hover {
     cursor: pointer;
 }
-
-.hieuung:hover{
-    transform: scale(1.2);
-    background-color: #eb891a;
-}
-
-
-.cap1:hover{
-    cursor: pointer;
-    transform: scale(1.01);
-    color: #DC3545;
-
-}
-
-.hieuung3:hover{
-    background-color: #3C669E;;
-    border: white 2px solid;
-    opacity: 0.8;
-}
-
-.hieuung4:hover{
-    
-   
-   
-}
-
 
 /*-------------- Chinh responsive cho mobile --------------*/
 @media only screen and (max-width: 46.1875em) {
